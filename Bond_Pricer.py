@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
-
 
 def CalcolaValoreNormale():
     C=float(input('Inserisci il valore della cedola= '))
@@ -14,9 +12,6 @@ def CalcolaValoreNormale():
     print('''Il valore attuale dell'obbligazione è =''', P)
 
 
-# In[6]:
-
-
 def CalcolaValoreZCB():
     r=float(input('Inserisci lo YTM= '))/100
     N=float(input('Inserisci il numero di anni prima della scadenza= '))
@@ -24,8 +19,6 @@ def CalcolaValoreZCB():
     P=F/(1+r)**N
     print('''Il valore attuale dell'obbligazione ZCB è =''', P)
 
-
-# In[7]:
 
 
 def Programma():
@@ -47,14 +40,4 @@ def Programma():
             break
 
 
-# In[4]:
-
-
 Programma()
-
-
-# In[ ]:
-
-
-
-
